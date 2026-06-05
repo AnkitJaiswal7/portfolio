@@ -1,494 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ankit Choudhary | Salesforce Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Choudhary | Salesforce Developer</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    background:#f5f7fb;
-    color:#333;
-}
-
-header{
-    background:linear-gradient(135deg,#0f172a,#2563eb);
-    color:white;
-    padding:80px 10%;
-}
-
-.hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:wrap;
-}
-
-.hero-text{
-    max-width:700px;
-}
-
-.hero-text h1{
-    font-size:3rem;
-    margin-bottom:10px;
-}
-
-.hero-text h2{
-    color:#93c5fd;
-    margin-bottom:20px;
-}
-
-.hero-text p{
-    line-height:1.8;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:25px;
-    padding:12px 28px;
-    background:white;
-    color:#2563eb;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:600;
-}
-
-section{
-    padding:70px 10%;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:50px;
-    font-size:2rem;
-    color:#0f172a;
-}
-
-.about{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:40px;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-}
-
-.skills{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
-}
-
-.skill{
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.08);
-}
-
-.timeline{
-    border-left:4px solid #2563eb;
-    padding-left:25px;
-}
-
-.timeline-item{
-    margin-bottom:35px;
-}
-
-.timeline-item h3{
-    color:#2563eb;
-}
-
-.projects{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:25px;
-}
-
-.project{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-    transition:0.3s;
-}
-
-.project:hover{
-    transform:translateY(-5px);
-}
-
-.certifications{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:20px;
-}
-
-.cert{
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    text-align:center;
-    box-shadow:0 5px 12px rgba(0,0,0,0.08);
-}
-
-.stats{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
-
-.stat{
-    background:#2563eb;
-    color:white;
-    padding:30px;
-    text-align:center;
-    border-radius:15px;
-}
-
-.stat h3{
-    font-size:2rem;
-}
-
-.contact{
-    text-align:center;
-}
-
-.contact a{
-    color:#2563eb;
-    text-decoration:none;
-    font-weight:600;
-}
-
-footer{
-    background:#0f172a;
-    color:white;
-    text-align:center;
-    padding:25px;
-}
-
-@media(max-width:768px){
-    .about{
-        grid-template-columns:1fr;
-    }
-
-    .hero-text h1{
-        font-size:2.2rem;
-    }
-}
-
-</style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-<div class="hero">
-<div class="hero-text">
-
-<h1>Ankit Choudhary</h1>
-
-<h2>Senior Salesforce Developer | 4X Salesforce Certified</h2>
-
-<p>
-Innovative Salesforce Developer with 4+ years of experience designing,
-developing and deploying scalable Salesforce solutions across Sales Cloud,
-Service Cloud, Experience Cloud, Health Cloud, CPQ and Agentforce AI.
-Experienced in Apex, LWC, Integrations, Automation, CI/CD and Enterprise Implementations.
-</p>
+    <!-- HERO SECTION -->
 
-<a href="#contact" class="btn">Contact Me</a>
+    <header>
 
-</div>
-</div>
-</header>
+        <div class="hero">
 
-<section>
-<h2 class="section-title">Professional Summary</h2>
+            <div class="hero-content">
 
-<div class="card">
-<p>
-Results-driven Salesforce Developer with proven experience delivering enterprise
-solutions for global clients including Michael Page, Coca-Cola Europacific Partners,
-Panasonic APAC and Tenneco.
-</p>
+                <h1>Ankit Choudhary</h1>
 
-<br>
+                <h2>Senior Salesforce Developer | Agentforce Specialist</h2>
 
-<ul>
-<li>4+ Years Salesforce Development Experience</li>
-<li>4X Salesforce Certified Professional</li>
-<li>Expert in Apex, LWC, Aura & Visualforce</li>
-<li>REST/SOAP Integration Specialist</li>
-<li>Agentforce AI Implementation Experience</li>
-<li>Salesforce-SAP Integration Experience</li>
-<li>CI/CD using Git & Copado</li>
-</ul>
-
-</div>
-</section>
-
-<section>
-<h2 class="section-title">Key Achievements</h2>
+                <p>
+                    4+ years of experience building enterprise Salesforce solutions
+                    using Apex, LWC, Integrations, Experience Cloud, CPQ,
+                    Service Cloud and Agentforce AI.
+                </p>
 
-<div class="stats">
+                <div class="hero-buttons">
 
-<div class="stat">
-<h3 id="exp">4+</h3>
-<p>Years Experience</p>
-</div>
+                    <a href="#contact" class="btn">
+                        Contact Me
+                    </a>
 
-<div class="stat">
-<h3 id="projects">15+</h3>
-<p>Enhancements Delivered</p>
-</div>
+                    <a href="assets/resume.pdf"
+                        class="btn btn-secondary"
+                        target="_blank">
+                        Download Resume
+                    </a>
 
-<div class="stat">
-<h3 id="certs">10+</h3>
-<p>Certifications</p>
-</div>
-
-<div class="stat">
-<h3 id="badges">135</h3>
-<p>Trailhead Badges</p>
-</div>
-
-</div>
-</section>
-
-<section>
-
-<h2 class="section-title">Technical Skills</h2>
-
-<div class="skills">
-
-<div class="skill">
-<h3>Salesforce Development</h3>
-<p>Apex, Triggers, Classes, Batch Apex, Schedulable Apex</p>
-</div>
-
-<div class="skill">
-<h3>Lightning</h3>
-<p>LWC, Aura Components, Visualforce</p>
-</div>
-
-<div class="skill">
-<h3>Integration</h3>
-<p>REST APIs, SOAP APIs, OAuth 2.0, SAP Integration</p>
-</div>
-
-<div class="skill">
-<h3>Automation</h3>
-<p>Flows, Process Builder, Validation Rules</p>
-</div>
-
-<div class="skill">
-<h3>Clouds</h3>
-<p>Sales Cloud, Service Cloud, Experience Cloud, CPQ, Health Cloud</p>
-</div>
-
-<div class="skill">
-<h3>DevOps</h3>
-<p>Git, Copado, VS Code, Jira, Change Sets</p>
-</div>
-
-</div>
-
-</section>
-
-<section>
+                </div>
 
-<h2 class="section-title">Work Experience</h2>
-
-<div class="timeline">
+            </div>
 
-<div class="timeline-item">
-<h3>Salesforce Developer Consultant | Genpact</h3>
-<p><b>Feb 2026 - Present</b></p>
-<ul>
-<li>Salesforce customization and automation</li>
-<li>Code reviews and deployments</li>
-<li>Reports and dashboards development</li>
-</ul>
-</div>
+            <div class="hero-image">
+                <img src="assets/profile.jpg" alt="Ankit Choudhary">
+            </div>
 
-<div class="timeline-item">
-<h3>Associate Consultant | Capgemini</h3>
-<p><b>Aug 2022 - Feb 2026</b></p>
-<ul>
-<li>Delivered solutions for Michael Page, Coca-Cola & Panasonic</li>
-<li>Developed custom Salesforce applications</li>
-<li>Implemented SAP integrations</li>
-<li>Improved operational efficiency by 35%</li>
-</ul>
-</div>
+        </div>
 
-</div>
+    </header>
 
-</section>
+    <!-- ABOUT -->
 
-<section>
+    <section>
 
-<h2 class="section-title">Featured Projects</h2>
+        <h2 class="section-title">About Me</h2>
 
-<div class="projects">
+        <div class="card">
 
-<div class="project">
-<h3>Michael Page Recruitment Portal</h3>
-<p>
-Built a Salesforce Experience Cloud recruitment platform with candidate tracking,
-job listings, application management and recruiter automation.
-</p>
-</div>
+            <p>
+                Innovative and results-oriented Salesforce Developer
+                with experience across Sales Cloud, Service Cloud,
+                Experience Cloud, Health Cloud and CPQ.
+            </p>
 
-<div class="project">
-<h3>Coca-Cola Europacific Partners</h3>
-<p>
-Developed customer portal enhancements, invoice automation,
-LWC-based registration forms and Omni-Channel routing.
-</p>
-</div>
+            <p>
+                Specialized in Apex Development, Lightning Web Components,
+                Integrations, Agentforce AI and Enterprise Automation.
+            </p>
 
-<div class="project">
-<h3>Panasonic APAC E-Store</h3>
-<p>
-Implemented dealer onboarding, sales automation,
-SAP integrations and Agentforce AI solutions.
-</p>
-</div>
+        </div>
 
-<div class="project">
-<h3>Tenneco P2P System</h3>
-<p>
-Implemented Procure-to-Pay processes, Email-to-Case,
-PO Mapping and Salesforce-SAP integrations.
-</p>
-</div>
+    </section>
 
-</div>
+    <!-- ACHIEVEMENTS -->
 
-</section>
+    <section>
 
-<section>
+        <h2 class="section-title">Key Achievements</h2>
 
-<h2 class="section-title">Certifications</h2>
+        <div class="stats">
 
-<div class="certifications">
+            <div class="stat">
+                <h3 class="counter" data-target="4">0</h3>
+                <p>Years Experience</p>
+            </div>
 
-<div class="cert">Salesforce Administrator</div>
-<div class="cert">Platform Developer I</div>
-<div class="cert">Platform Developer II</div>
-<div class="cert">Agentforce Specialist</div>
-<div class="cert">Google Associate Cloud Engineer</div>
-<div class="cert">Google Professional Cloud Developer</div>
-<div class="cert">Google Cloud Security Engineer</div>
-<div class="cert">Azure Fundamentals</div>
-<div class="cert">GitHub Copilot Certified</div>
-<div class="cert">Copado Fundamentals</div>
+            <div class="stat">
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Projects Delivered</p>
+            </div>
 
-</div>
+            <div class="stat">
+                <h3 class="counter" data-target="10">0</h3>
+                <p>Certifications</p>
+            </div>
 
-</section>
+            <div class="stat">
+                <h3 class="counter" data-target="135">0</h3>
+                <p>Trailhead Badges</p>
+            </div>
 
-<section>
+        </div>
 
-<h2 class="section-title">Education</h2>
+    </section>
 
-<div class="card">
+    <!-- SKILLS -->
 
-<h3>NIT Jalandhar</h3>
-<p>B.Tech | 2022</p>
-<p>81.5%</p>
+    <section>
 
-<br>
+        <h2 class="section-title">Technical Skills</h2>
 
-<ul>
-<li>Qualified GATE 2022</li>
-<li>Received PhD Offer from IIT Kanpur</li>
-<li>Qualified IIT-JEE Mains</li>
-</ul>
+        <div class="skills">
 
-</div>
+            <div class="skill-card">Apex Development</div>
+            <div class="skill-card">Lightning Web Components</div>
+            <div class="skill-card">Aura Components</div>
+            <div class="skill-card">Visualforce</div>
+            <div class="skill-card">Salesforce APIs</div>
+            <div class="skill-card">REST / SOAP Integration</div>
+            <div class="skill-card">Agentforce AI</div>
+            <div class="skill-card">Experience Cloud</div>
+            <div class="skill-card">Sales Cloud</div>
+            <div class="skill-card">Service Cloud</div>
+            <div class="skill-card">CPQ</div>
+            <div class="skill-card">Git & Copado</div>
 
-</section>
+        </div>
 
-<section id="contact">
+    </section>
 
-<h2 class="section-title">Contact</h2>
+    <!-- EXPERIENCE -->
 
-<div class="contact">
+    <section>
 
-<p><strong>Email:</strong> ankitchoudhary0227@gmail.com</p>
+        <h2 class="section-title">Experience</h2>
 
-<p><strong>Phone:</strong> +91 9113770892</p>
+        <div class="timeline">
 
-<p>
-<strong>LinkedIn:</strong>
-<a href="https://www.linkedin.com/in/ankit-choudhary-50450318b" target="_blank">
-View Profile
-</a>
-</p>
+            <div class="timeline-item">
 
-</div>
+                <h3>Genpact</h3>
 
-</section>
+                <span>Salesforce Developer Consultant</span>
 
-<footer>
-<p>© 2026 Ankit Choudhary | Salesforce Developer Portfolio</p>
-</footer>
+                <p>Feb 2026 - Present</p>
 
-<script>
+            </div>
 
-const counters = document.querySelectorAll('.stat h3');
+            <div class="timeline-item">
 
-counters.forEach(counter => {
+                <h3>Capgemini</h3>
 
-const updateCount = () => {
+                <span>Associate Consultant</span>
 
-const target = parseInt(counter.innerText);
+                <p>Aug 2022 - Feb 2026</p>
 
-let count = 0;
+            </div>
 
-const increment = target / 40;
+        </div>
 
-const interval = setInterval(() => {
+    </section>
 
-count += increment;
+    <!-- PROJECTS -->
 
-if(count >= target){
-counter.innerText = target + "+";
-clearInterval(interval);
-}
-else{
-counter.innerText = Math.floor(count);
-}
+    <section>
 
-},40);
+        <h2 class="section-title">Projects</h2>
 
-}
+        <div class="projects">
 
-updateCount();
+            <div class="project-card">
 
-});
+                <h3>Michael Page Recruitment Portal</h3>
 
-</script>
+                <p>
+                    Experience Cloud recruitment platform
+                    for candidate management and recruiter automation.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Coca-Cola Europacific Partners</h3>
+
+                <p>
+                    Customer portal enhancement, invoice automation,
+                    LWC forms and Omni-Channel Routing.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Panasonic APAC E-Store</h3>
+
+                <p>
+                    Dealer onboarding, SAP Integration,
+                    Agentforce AI implementation.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Tenneco P2P System</h3>
+
+                <p>
+                    Procure-to-Pay automation,
+                    Salesforce-SAP integration and Email-to-Case.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATIONS -->
+
+    <section>
+
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="certifications">
+
+            <div>Salesforce Administrator</div>
+            <div>Platform Developer I</div>
+            <div>Platform Developer II</div>
+            <div>Agentforce Specialist</div>
+            <div>Google Cloud Engineer</div>
+            <div>Google Cloud Developer</div>
+            <div>Google Security Engineer</div>
+            <div>Azure Fundamentals</div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact">
+
+            <p>Email: ankitchoudhary0227@gmail.com</p>
+
+            <p>Phone: +91 9113770892</p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/ankit-choudhary-50450318b"
+                    target="_blank">
+                    View Profile
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 Ankit Choudhary | Salesforce Developer Portfolio
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
